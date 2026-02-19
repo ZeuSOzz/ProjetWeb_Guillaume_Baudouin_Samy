@@ -12,9 +12,9 @@ Ce projet met en œuvre les technologies web fondamentales (HTML5, CSS3, JavaScr
 
 | Nom | Rôle | Responsabilités |
 |-----|------|----------------|
-| **[Nom Membre 1]** | Lead Developer | Page d'accueil, Header/Footer, Architecture |
-| **[Nom Membre 2]** | Developer | Pages Cours & Équipe enseignante |
-| **[Nom Membre 3]** | Developer | Page Contact, JavaScript, Interactivité |
+| **Guillaume** | Developer | Page Cours |
+| **Baudouin** | Developer | Pages Equipe |
+| **Samy** | Developer | Page A propos et accueil |
 
 ---
 
@@ -52,25 +52,20 @@ projet-xti205/
 │
 ├── index.html                 # Page d'accueil
 ├── pages/
-│   ├── cours-formations.html
-│   ├── equipe-enseignante.html
-│   ├── contact.html
+│   ├── cours et formations.html
+│   ├── equipe enseignante.html
 │   └── a-propos.html
 │
 ├── css/
 │   ├── style.css             # Styles principaux
-│   ├── responsive.css        # Media queries
 │   └── animations.css        # Animations CSS
 │
 ├── js/
 │   ├── script.js             # Script principal
-│   ├── form-validation.js    # Validation formulaires
-│   └── carousel.js           # Carrousel d'images
+│   └── form-validation.js    # Validation formulaires
 │
 ├── images/
 │   ├── logo-efrei.png
-│   ├── carousel/
-│   └── team/
 │
 ├── maquette/
 │   └── wireframe.pdf         # Maquette du site
@@ -265,8 +260,7 @@ Toutes les pages doivent être validées :
 ## 📧 Contact
 
 Pour toute question concernant ce projet :
-- **Enseignant** : Mohamed HAMIDI
-- **Cours** : XTI205-CYB
+- **Cours** : Web
 - **Année** : 2025-2026
 
 ---
