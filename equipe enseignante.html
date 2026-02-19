@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Notre Équipe Enseignante</title>
+
+<style>
+/* section chouette */
+.section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.rotating-image {
+    width: 100px; 
+    cursor: pointer;
+    transition: transform 0.6s ease;
+}
+.rotate {
+    transform: rotate(360deg);
+}
+body{
+    margin:0;
+    height:100vh;
+    background-image: url("images/fond 1 r.png");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+h1{
+    color:white;
+    margin-top:40px;
+}
+.equipe{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:40px;
+    margin-top:60px;
+}
+
+.frame{
+    background:#ffffff;
+    border:12px solid #F39200;
+    width:220px;
+    padding:10px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
+    cursor:pointer;
+    transition:0.4s;
+}
+
+.photo{
+    width:100%;
+    height:220px;
+    overflow:hidden;  
+}
+
+.photo img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+.info{
+    background:white;
+    padding:10px;
+    margin-top:10px;
+    border-radius:6px;
+    text-align:center;
+}
+
+.info h3{
+    margin:5px 0;
+}
+
+.info h4{
+    margin:5px 0;
+    color:#666;
+    font-size:14px;
+}
+
+.info p{
+    font-size:13px;
+}
+
+.frame.active{
+    transform:scale(1.5);
+    z-index:10;
+}
+/*lien hyper texte orange footer*/
+.footer-link {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    .footer-link:hover {
+        color: #F39200;
+    }
+</style>
+</head>
+
+<body>
+<div class="section">
+    <h2>Qui sommes-nous ?</h2>
+    <img src="images\ch.png" alt="chouette" class="rotating-image">
+</div>
+<h1>Notre Équipe Enseignante</h1>
+<div class="equipe">
+
+    <div class="frame" onclick="zoom(this)">
+        <div class="photo">
+    <img src="images/LC.jpg" alt="Frédéric Meunier">
+        </div>
+        <div class="info">
+            <h3>Laurie Conteville</h3>
+            <h4>Enseignante-chercheuse de l’axe de recherche «Systèmes Embarqués Intelligents» / Responsable de la majeure « Systèmes Robotiques et Drones</h4>
+            <h5>Spécialités : Systèmes Embarqués Intelligents </h5>
+            <p>Laurie Conteville est diplômée d'un master recherche en sciences de l'ingénieur option « signaux et images application médicale », puis d'un doctorat en physique de l'université Paris-Saclay spécialité automatique au sein du Laboratoire Signaux et Système (L2S) Centrale-Supélec (2013). Elle rejoint l'Efrei en 2020.</p>
+            <h4> <a href = "https://www.linkedin.com/in/laurie-conteville-5593b220a"> linkedin </a></h4>
+        </div>
+    </div>
+
+    <div class="frame" onclick="zoom(this)">
+        <div class="photo">
+    <img src="images/YAM.jpg" alt="Youssef Ait El Mahjoub">
+        </div>
+        <div class="info">
+            <h5>Youssef Ait El Mahjoub</h5>
+            <h4>Enseignant-chercheur de l'axe de recherche « Réseaux de Communication » / Responsable de la filière IT</h4>
+            <h5>Spécialités : Réseaux de Communication </h5>
+            <p>Diplômé d'un Master en Informatique, Algorithmique et Modélisation à l'interface des Sciences (AMIS), au sein de l'université de Versailles-Saint-Quentin-En-Yvelines (UVSQ) en 2016 avant de soutenir sa thèse en 2021. Il rejoint l'Efrei en 2022.</p>
+            <h4> <a href = "https://www.linkedin.com/in/youssef-ait-el-mahjoub-3b488aab"> linkedin </a></h4>
+        </div>
+    </div>
+
+    <div class="frame" onclick="zoom(this)">
+        <div class="photo">
+    <img src="images/CB.jpg" alt="Carlo Bianca">
+        </div>
+        <div class="info">
+           <h3>Carlo Bianca</h3>
+            <h4>Enseignant-chercheur en mathématiques</h4>
+            <h5>Spécialités : mathématiques </h5>
+            <p>il intègre l'Efrei en 2019 où il dirige le développement et les relations extérieures, avec pour mission de créer des passerelles entre les talents de demain et les opportunités d'aujourd'hui.</p>
+            <h4> <a href = "https://www.linkedin.com/in/carlo-bianca-6b826531"> linkedin </a></h4>
+        </div>
+    </div>
+
+    <div class="frame" onclick="zoom(this)">
+        <div class="photo">
+    <img src="images/RB.jpg" alt="Riham Badra">
+        </div>
+        <div class="info">
+            <h3>Riham Badra</h3>
+            <h4>Doctorante de l'axe de recherche « Sécurité, Résilience & Confiance numérique »</h4>
+            <h5>Spécialités : Sécurité, Résilience </h5>
+            <p>Riham Badra est doctorante de l'axe de recherche « Sécurité, Résilience & Confiance numérique » au sein de l'Efrei Research Lab.</p>
+            <h4> <a href = "https://www.linkedin.com/in/riham-h-badra"> linkedin </a></h4>
+        </div>
+    </div>
+
+    <div class="frame" onclick="zoom(this)">
+        <div class="photo">
+    <img src="images/LB.jpg" alt="Lamine Bougeroua">
+        </div>
+        <div class="info">
+            <h3>Lamine Bougeroua</h3>
+            <h4>Enseignant-Chercheur de l’axe de recherche (Données et Intelligence Artificielle )</h4>
+            <h5>Spécialités : Données et Intelligence Artificielle </h5>
+            <p>Il obtient son diplôme d'ingénieur en informatique en 1998. Il reçoit ensuite un Master Spécialisé en base de données avancées de l'Université de Versailles en 2001 avant de passer son doctorat à l'Université Paris-EST Creteil en 2007. Il rejoint l'Esigetel en 2006 devenu par la suite l'Efrei suite à la fusion entre les deux établissements en 2016.</p>
+            <h4> <a href = "https://www.linkedin.com/in/lamine-bougueroua-29882b24"> linkedin </a></h4>
+        </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+/* rotation chouette*/
+    const image = document.querySelector('.rotating-image');
+    image.addEventListener('click', () => {
+        image.classList.add('rotate');
+        setTimeout(() => {
+        image.classList.remove('rotate');
+    }, 600);
+});
+
+/*zoom sur images*/
+function zoom(element){
+if(element.classList.contains("active")){
+    element.classList.remove("active");
+    }
+else{
+    let frames = document.querySelectorAll(".frame");
+    frames.forEach(frame => frame.classList.remove("active"));
+    element.classList.add("active");
+}
+}
+
+</script>
+<footer style="color: white; text-align: center; padding: 20px;">
+    <h4>EFREI 2026</h4>
+    <P>Projet final web</P>
+    <h4><a href="https://www.efrei.fr/" target="_blank" rel="noopener noreferrer" class="footer-link"> Site internet officiel </a></h4>
+</footer>
+</body>
+</html>
