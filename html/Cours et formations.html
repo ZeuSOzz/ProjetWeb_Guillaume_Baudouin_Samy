@@ -4,17 +4,169 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cours et formations</title>
-    <link rel="stylesheet" href="../style.css">
-
-</html>
-<div></div>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
 <body>
-    <h1>Cours et formations</h1>
-    <p>Voici une liste de cours et de formations recommandés pour approfondir vos connaissances en développement web et en programmation :</p>
+    <div class="logo-container">
+        <img src="../images/Logo_Efrei.png" alt="Logo Efrei" class="logo">
+    </div>
+    <h1>Cours</h1>
+    <p>Voici la liste de cours qui vous permettront d'approfondir vos connaissances en développement web et en programmation :</p>
     <ul>
         <li><a href="https://www.codecademy.com/learn/learn-html">Codecademy - Learn HTML</a></li>
         <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/">freeCodeCamp - Responsive Web Design</a></li>
         <li><a href="https://www.udemy.com/course/the-complete-web-developer-course-2/">Udemy - The Complete Web Developer Course 2.0</a></li>
         <li><a href="https://www.coursera.org/specializations/web-design">Coursera - Web Design for Everybody</a></li>
         <li><a href="https://www.pluralsight.com/courses/html5-fundamentals">Pluralsight - HTML5 Fundamentals</a></li>
+    </ul>
+    <h1>Formations</h1>
+    <p>Voici la liste des formations que propose l'Efrei selon le programme que vous souhaitez suivre :</p>
+    <ul class="programmes">
+        <li class="programme">
+            Grande Ecole
+            <button class="accordion-btn plus-btn">+</button>
+            <button class="accordion-btn minus-btn" style="display:none;">−</button>
+            <div class="accordion-content">
+                <h3>Présentation générale du Cycle</h3>
+                <p>Le cycle Grande Ecole offre une formation complète en ingénierie informatique. Les objectifs pédagogiques visent le développement d'une expertise technique pointue, des compétences en gestion de projet, et l'innovation technologique. Les étudiants acquièrent les savoirs essentiels pour devenir des ingénieurs capables de relever les défis du numérique.</p>
+                
+                <h3>Programmes par niveau</h3>
+                <ul style="background-color: transparent; padding: 10px 0;">
+                    <li><strong>Prépas intégrées :</strong> Fondations scientifiques et informatiques, introduction à la programmation, mathématiques appliquées</li>
+                    <li><strong>Cycle ingénieur :</strong> Apprentissage avancé en développement, architecture logicielle, bases de données, réseaux et sécurité informatique</li>
+                    <li><strong>Majeures de spécialisation :</strong> Filières spécialisées permettant une expertise en Data Science, IT, Cybersécurité, ou Systèmes embarqués</li>
+                </ul>
+            </div>
+            <ul class="sous-programmes">
+                <li><a href="https://www.efrei.fr/formation/prepas-integrees/">Prépas intégrées</a></li>
+                <li><a href="https://www.efrei.fr/formation/cycle-ingenieur/">Cycle ingénieur</a></li>
+                <li>
+                    Majeures de spécialisation
+                    <ul class="sous-sous-programmes">
+                        <li><a href="https://www.efrei.fr/formation/filiere-data-science/">Filière Data Science</a></li>
+                        <li><a href="https://www.efrei.fr/formation/filiere-information-technology/">Filière Information Technology</a></li>
+                        <li><a href="https://www.efrei.fr/formation/filiere-securite-et-reseaux/">Filière Sécurité & Réseaux</a></li>
+                        <li><a href="https://www.efrei.fr/formation/filiere-systemes-embarques/">Filière Systèmes embarqués</a></li>
+                        <li><a href="https://www.efrei.fr/formation/filiere-en-apprentissage/">Filière en apprentissage</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="programme">
+            Technologie & Numérique
+            <button class="accordion-btn plus-btn">+</button>
+            <button class="accordion-btn minus-btn" style="display:none;">−</button>
+            <div class="accordion-content">
+                <h3>Présentation générale du Cycle</h3>
+                <p>Le cycle Technologie & Numérique forme des professionnels aux dernières technologies informatiques. L'objectif est de créer des experts en développement logiciel, cybersécurité et data science, capables de concevoir et gérer des solutions informatiques innovantes.</p>
+                
+                <h3>Programmes par niveau</h3>
+                <ul style="background-color: transparent; padding: 10px 0;">
+                    <li><strong>BTS :</strong> Formation courte de 2 ans en Services Informatiques aux organisations</li>
+                    <li><strong>Bachelors/Licences :</strong> Informatique, Cybersécurité & Réseaux, Développeur Web & IA. Modalités: initiale et alternance. Débouchés: Développeur Full-stack, Administrateur Systèmes, Consultant SI</li>
+                    <li><strong>Mastères :</strong> Formations spécialisées en développement, data engineering, cybersécurité et technologies émergentes</li>
+                </ul>
+            </div>
+            <ul class="sous-programmes">
+                <li>
+                    BTS
+                    <ul class="sous-sous-programmes">
+                        <li><a href="https://www.efrei.fr/formation/bts-sio/">BTS SIO</a></li>
+                    </ul>
+                </li>
+                <li>
+                    Bachelors/Licences
+                    <ul class="sous-sous-programmes">
+                        <li><a href="https://www.efrei.fr/formation/bachelor-developpeur-web-ia/">Bachelor Développeur web & IA</a></li>
+                        <li><a href="https://www.efrei.fr/formation/bachelor-cybersecurite-reseaux/">Bachelor Cybersécurité & réseaux (Grade de licence)</a></li>
+                        <li><a href="https://www.efrei.fr/formation/bachelor-cybersecurite-ethical-hacking/">Bachelor Cybersécurité & Ethical Hacking</a></li>
+                        <li><a href="https://www.efrei.fr/formation/bachelor-informatique/">Bachelor Informatique</a></li>
+                    </ul>
+                </li>
+                <li>
+                    Mastères
+                    <ul class="sous-sous-programmes">
+                        <li><a href="https://www.efrei.fr/formation/mastere-dev-manager-full-stack/">Mastère Dev. Manager Full Stack</a></li>
+                        <li><a href="https://www.efrei.fr/formation/mastere-data-engineering-ia/">Mastère Data Engineering & IA</a></li>
+                        <li><a href="https://www.efrei.fr/mastere-cybersecurite/">Mastère Cybersécurité</a></li>
+                        <li><a href="https://www.efrei.fr/mastere-cybersecurite-management/">Mastère Cybersécurité Management</a></li>
+                        <li><a href="https://www.efrei.fr/formation/mastere-green-it/">Mastère Green IT</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="programme">
+            Digital & management
+            <button class="accordion-btn plus-btn">+</button>
+            <button class="accordion-btn minus-btn" style="display:none;">−</button>
+            <div class="accordion-content">
+                <h3>Présentation générale du Cycle</h3>
+                <p>Le cycle Digital & Management prépare les étudiants à combiner expertise digitale et compétences managériales. L'objectif est de former des leaders capables de piloter la transformation digitale des organisations.</p>
+                
+                <h3>Programmes par niveau</h3>
+                <ul style="background-color: transparent; padding: 10px 0;">
+                    <li><strong>BTS :</strong> Communication et technologies numériques</li>
+                    <li><strong>Bachelors/Licences :</strong> Marketing Digital, Communication digitale, Data Marketing, E-commerce. Modalités: initiale et alternance. Débouchés: Chef de projet digital, Responsable marketing, Consultant digital</li>
+                    <li><strong>Masters/Mastères :</strong> Formations avancées en UX Design, stratégie digitale, marketing digital et management de la transformation</li>
+                </ul>
+            </div>
+            <ul class="sous-programmes">
+                <li>
+                    BTS
+                    <ul class="sous-sous-programmes">
+                        <li><a href="https://www.efrei.fr/formation/bts-communication/">BTS Communication</a></li>
+                    </ul>
+                </li>
+                <li>
+                    Bachelors/Licences
+                    <ul class="sous-sous-programmes">
+                        <li><a href="https://www.efrei.fr/formation/bachelor-marketing-digital-communication/">Bachelor Marketing Digital & Communication</a></li>
+                        <li><a href="https://www.efrei.fr/formation/bachelor-international-communication-technology/">Bachelor International Communication & Technology</a></li>
+                        <li><a href="https://www.efrei.fr/formation/bachelor-data-marketing-et-ia/">Bachelor Data Marketing & IA</a></li>
+                        <li><a href="https://www.efrei.fr/formation/bachelor-chef-de-projet-e-commerce/">Bachelor Chef de projet e-commerce</a></li>
+                    </ul>
+                </li>
+                <li>
+                    Masters/Mastères
+                    <ul class="sous-sous-programmes">
+                        <li><a href="https://www.efrei.fr/formation/mastere-ux-design/">Mastère UX Design</a></li>
+                        <li><a href="https://www.efrei.fr/formation/mastere-communication-strategie-digitale/">Mastère Communication & Stratégie Digitale</a></li>
+                        <li><a href="https://www.efrei.fr/formation/mastere-marketing-digital-management/">Mastère Marketing Digital & Management</a></li>
+                        <li><a href="https://www.efrei.fr/formation/mastere-management-data-ia/">Mastère Management Data & IA</a></li>
+                        <li><a href="https://www.efrei.fr/formation/master-marketing-technologies-digitales/">Master Marketing & Technologies Digitales</a></li>
+                        <li><a href="https://www.efrei.fr/formation/master-international-communication-management/">Master International Communication Management</a></li>
+                        <li><a href="https://www.efrei.fr/formation/master-management-digital-transformation/">Master Management & Digital Transformation</a></li>
+                        <li><a href="https://www.efrei.fr/formation/master-digital-supply-chain-management/">Master Digital Supply Chain Management</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <script>
+        // Accordion functionality
+        const plusBtns = document.querySelectorAll('.plus-btn');
+        const minusBtns = document.querySelectorAll('.minus-btn');
+
+        plusBtns.forEach((btn) => {
+            btn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                const content = this.nextElementSibling.nextElementSibling; // Skip minus button
+                content.classList.add('active');
+                this.style.display = 'none';
+                this.nextElementSibling.style.display = 'inline-block';
+            });
+        });
+
+        minusBtns.forEach((btn) => {
+            btn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                const content = btn.nextElementSibling;
+                content.classList.remove('active');
+                this.style.display = 'none';
+                this.previousElementSibling.style.display = 'inline-block';
+            });
+        });
+    </script>
 </body>
+</html>
