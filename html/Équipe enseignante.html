@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Notre Équipe Enseignante</title>
+    <link rel="stylesheet" href="../css/style.css">
 
 <style>
 /* section chouette */
@@ -23,7 +24,7 @@
 body{
     margin:0;
     height:100vh;
-    background-image: url("images/fond 1 r.png");
+    background-image: url("../images/fond 1 r.png");
     background-size: cover;
     background-position: center;
     font-family: Arial, sans-serif;
@@ -105,16 +106,34 @@ h1{
 </head>
 
 <body>
+        <header class="site-header">
+  <div class="header-container">
+    <div class="logo">
+      <img src="../images/EFREI.svg" alt="Logo EFREI">
+      <h1>Département Informatique EFREI</h1>
+    </div>
+
+    <nav class="main-nav" aria-label="Navigation principale">
+      <ul>
+        <li><a class="active" href="Accueil.html">Accueil</a></li>
+        <li><a href="Cours et formations.html">Formations</a></li>
+        <li><a href="Équipe enseignante.html">Équipe</a></li>
+        <li><a href="À propos.html">À propos</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
 <div class="section">
     <h2>Qui sommes-nous ?</h2>
-    <img src="images\ch.png" alt="chouette" class="rotating-image">
+    <img src="../images/ch.png" alt="chouette" class="rotating-image">
 </div>
 <h1>Notre Équipe Enseignante</h1>
 <div class="equipe">
 
     <div class="frame" onclick="zoom(this)">
         <div class="photo">
-    <img src="images/LC.jpg" alt="Frédéric Meunier">
+    <img src="../images/LC.jpg" alt="Frédéric Meunier">
         </div>
         <div class="info">
             <h3>Laurie Conteville</h3>
@@ -127,7 +146,7 @@ h1{
 
     <div class="frame" onclick="zoom(this)">
         <div class="photo">
-    <img src="images/YAM.jpg" alt="Youssef Ait El Mahjoub">
+    <img src="../images/YAM.jpg" alt="Youssef Ait El Mahjoub">
         </div>
         <div class="info">
             <h5>Youssef Ait El Mahjoub</h5>
@@ -140,7 +159,7 @@ h1{
 
     <div class="frame" onclick="zoom(this)">
         <div class="photo">
-    <img src="images/CB.jpg" alt="Carlo Bianca">
+    <img src="../images/CB.jpg" alt="Carlo Bianca">
         </div>
         <div class="info">
            <h3>Carlo Bianca</h3>
@@ -153,7 +172,7 @@ h1{
 
     <div class="frame" onclick="zoom(this)">
         <div class="photo">
-    <img src="images/RB.jpg" alt="Riham Badra">
+    <img src="../images/RB.jpg" alt="Riham Badra">
         </div>
         <div class="info">
             <h3>Riham Badra</h3>
@@ -166,7 +185,7 @@ h1{
 
     <div class="frame" onclick="zoom(this)">
         <div class="photo">
-    <img src="images/LB.jpg" alt="Lamine Bougeroua">
+    <img src="../images/LB.jpg" alt="Lamine Bougeroua">
         </div>
         <div class="info">
             <h3>Lamine Bougeroua</h3>
